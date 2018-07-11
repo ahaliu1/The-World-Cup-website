@@ -37,7 +37,12 @@ li {
     opacity: 0.7;
 }
 
-a {
+.menu li a {
+    display:block;
+    text-align:center;
+    line-height:55px;
+    width:100%;
+    height:55px;
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -101,11 +106,11 @@ li:hover {
     height: 33px;
     line-height: 33px;
     text-align: center;
-    background:url(±³¾°1.jpg) no-repeat;     
+    background:url(1.jpg) no-repeat;     
 }
 .team_title{
     height:40px;
-    background-image:url(±³¾°.jpg); 
+    background-image:url(.jpg); 
     padding:0 14px;
     border-bottom:1px solid #dedede;
     margin-top:-1px;
