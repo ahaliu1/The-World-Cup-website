@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*页面框架*/
+
+
+body, div, p, ul, ol, dl, dt, dd, li, form, input, table, img, h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+
+body {
+    /*display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    */
+	background:#FFF none; 
+	margin-top:0;
+	font-family: "Microsoft YaHei";
+	min-width:1220px;
+	}
+	
+
+
+.shijiebeimd.style05{background:url("../img/bg.jpg") no-repeat center bottom;border-top:0}
+
+
+/*多彩世界杯*/
+.shijiebei{clear:both;zoom:1;width:1200px;position:relative;min-height:554px;}
+.shijiebei .title{height:57px;line-height:57px; font-size:21px;font-family:"microsoft yahei";color:#cabc8f;font-weight: bold;}
+.shijiebei .l_box{width:370px;}
+.shijiebei .r_box{width:853px;height:500px;background:url("../img/h.png") no-repeat;position:absolute;/*left:458px;*/top:0;right:-8px;}
+
+.shijiebei .l_box h3{font-size:30px;font-family:"microsoft yahei";color:#ffffff;font-weight:normal;height:59px;line-height:59px;padding-bottom:14px;}
+.shijiebei .l_box h3 a{color:#ffffff;text-decoration:none;}
+.shijiebei .l_box p{font-size:17px;font-family:"microsoft yahei";color:#ffffff;line-height:22px;text-indent:2em;}
+.shijiebei .l_box p a{color:#ffffff;}
+.shijiebei .l_box .cont{display:none;}
+.shijiebei .l_box .show{display:block !important;}
+
+.shijiebei .r_box .bsyq{background:url("../img/j.png") no-repeat;width:174px;height:106px;position:absolute;top:159px;right:116px;cursor:pointer;}
+.shijiebei .r_box .jbei{background:url("../img/b.png") no-repeat;width:113px;height:128px;position:absolute;top:308px;right:180px;cursor:pointer;}
+.shijiebei .r_box .ftrq{background:url("../img/e.png") no-repeat;width:211px;height:105px;position:absolute;top:180px;right:299px;cursor:pointer;}
+.shijiebei .r_box .jxw{background:url("../img/im.png") no-repeat;width:150px;height:153px;position:absolute;top:313px;right:305px;cursor:pointer;}
+.shijiebei .r_box .lsjd{background:url("../img/g.png") no-repeat;width:212px;height:103px;position:absolute;top:303px;right:458px;cursor:pointer;}
+.shijiebei .r_box .bscg{background:url("../img/i.png") no-repeat;width:193px;height:104px;position:absolute;top:227px;right:561px;cursor:pointer;}
+
+.shijiebei .r_box p{height:25px;line-height:25px;font-size:16px;font-family:"microsoft yahei";color:#ffffff;padding-right:26px;letter-spacing:1px;padding-bottom:12px;}
+.shijiebei .r_box p span{display:inline-block;height:100%;background:#0079b7;padding:0 13px;float:right;}
+.shijiebei .r_box .cur p span{background:#e2000b;}
+
+/*多彩世界杯end*/
+
+
+
+
+
+
+
+/*header*/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    min-width: 1000px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
+.menu {
+    list-style: none;
+    position: relative;
+    margin-top: 145px;
+    margin-left: 25%;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 0px;
+    width: 11%;
+    height: 55px;
+    background-color: darkgreen;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    background-color: darkgreen;
+    margin-top: -16px;
+    height: 5px;
+}
+
+li:hover {
+    background-color: black;
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+    color: #666;
+    line-height: 25px;
+    padding: 20px 0;
+    margin-top: 5px;
+}
+
+.footer-inner {
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 11px;
+}
+
+.footer a {
+    color: #666;
+    font-size: 11px;
+}
+
+.footer a:hover {
+        text-decoration: underline;
+ }
+ 
+
+ .column_wrapper{
+	clear:both;
+	margin:0 auto;
+	text-align:left;
+	width:1160px;
+}
+.column_wrapper:after{
+	clear:both;
+	content:".";
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}
+
+
+
+.pics_show .vspace{
+	height:10px;
+	font-size:0px;
+	line-height:0px;
+	width:99%;
+	clear:both;
+}
+.pics_show .clear{
+	clear:both;
+}
