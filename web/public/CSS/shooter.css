@@ -1,0 +1,73 @@
+
+/*center*/
+.inner {
+    margin: 0 auto;
+    width: 902px;
+    color: #666;
+    padding-top:30px;
+    min-height: 300px;
+}
+.title{
+    height:58px;
+    border-bottom:1px solid #e2e2e2;   
+    padding:0 0;
+}
+.title li{
+    background-image:url("../img/背景.jpg");
+    opacity:1;
+    float:left;
+    font-size:18px;
+    text-align:center;
+    height:58px;
+    line-height:58px;
+    opacity:1;
+}
+.lw_130{
+    width:130px;
+}
+.lw_170{
+    width:170px;
+}
+.shooter{
+    margin-bottom:60px;
+}
+.ss_list {
+    margin-top: -18px;
+    padding-left: 0px;
+    height: 104px;
+}
+.ss_list li {
+        float: left;
+        background-color: lightgray;
+        font-size: 16px;
+        text-align: center;
+        height: 104px;
+        line-height: 25px;
+        overflow: hidden;
+        border-bottom: 1px solid #e2e2e2;
+        opacity: 0.9;
+}
+.ss_list a{
+    text-decoration:none;
+    color:#333333;
+    font-family:'Microsoft YaHei';
+    line-height:20px;
+    font-size: 16px;
+}
+.ss_list a:hover{
+    text-decoration:underline;
+}
+.photo-img{
+    width:50px;
+    display:inline;
+    margin:0 15px 0 0;
+    vertical-align:middle;
+}
+.flag-img{
+    width:39px;
+    height:24px;
+    border:1px solid #e2e2e2;
+    float:left;
+    margin:0px 15px 0 0px;
+    vertical-align:middle;
+}

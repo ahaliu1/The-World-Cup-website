@@ -1,0 +1,13 @@
+
+/*center*/
+.annotation{
+    margin:50px auto;
+    width:500px;
+    border-top:1px solid darkgreen;
+    border-bottom:1px solid darkgreen;
+}
+.annotation p{
+   color:darkgreen;
+}
+
+

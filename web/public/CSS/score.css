@@ -1,0 +1,61 @@
+
+/*center*/
+.inner{
+    width:912px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.score{
+    width:976px;
+    overflow:hidden;
+}
+.team{
+    width:424px;
+    margin-right:64px;
+    margin:48px 64px 0 0;
+    float:left;
+}
+.team_name{
+    font-size: 18px;
+    color: #db1718;
+    width: 94px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background:url("../img/背景1.jpg") no-repeat;
+}
+.team_title{
+    height:40px;
+    background-image:url("../img/背景.jpg");
+    padding:0 14px;
+    border-bottom:1px solid #dedede;
+    margin-top:-1px;
+}
+.team_title li {
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        width: 66px;
+        height: 40px;
+        float: left;
+        opacity: 1;
+        background-color:inherit;
+}
+.info_list{
+    background:none;
+    height:40px;
+    padding:0 14px;
+    border-bottom:1px solid #dedede;
+    margin-top:-15px;
+}
+.info_list li{
+    color:#7c7c7c;
+    font-size:14px;
+    text-align:center;
+    width:66px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    opacity:1;
+    background-color:inherit;
+}

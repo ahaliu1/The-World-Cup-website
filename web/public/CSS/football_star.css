@@ -1,0 +1,184 @@
+
+/*center*/
+.inner {
+    width: 900px;
+    margin: 30px auto;
+    border: 1px solid #006400;
+}
+.footballer_title{
+    height:70px;
+    line-height:70px;
+    font-size:23px;
+    font-family:'Microsoft YaHei';
+    font-weight:bold;
+    background:url("../img/背景.jpg");
+}
+.country{
+    float:left;
+    width:32px;
+    height:32px;
+    position:relative;
+    margin-top:20px;
+    margin-left:23px;
+    margin-right:10px;
+}
+.country_flag{
+    display:block;
+    width:32px;
+    height:32px;
+    color:inherit;
+    overflow:hidden;
+    border-radius:100%;
+    border:1px solid yellow;
+}
+.country_name{
+    float:left;
+    display:inline-block;
+    height:70px;
+    color:#fff;
+}
+.country_name a{
+    margin-left:15px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.country_name i{
+    font-size:19px;
+    font-weight:normal;
+    font-family:'Microsoft YaHei';
+}
+.top {
+    font-family: 'Microsoft YaHei';
+    height: 719px;
+    position: relative;
+    border-bottom: 1px solid #006400;
+    margin-top:20px;
+}
+/*�����Ϣ*/
+.left{
+    width:240px;
+    float:left;
+    position:absolute;
+    left:0;
+    top:0;z-index:10;
+    margin:0;
+    padding:0;
+}
+.left_info{
+    margin-top:180px;
+    padding-left:10px;
+}
+.left_info .name{
+    height:45px;
+    text-align:center;
+}
+.left_info .name h3{
+    margin:0;
+    font-size:40px;
+    color:darkgreen;
+    line-height:45px;
+}
+.left_info .brief{
+    margin-top:20px;
+    padding:0;
+}
+.brief ul{
+   margin:0;
+   padding:0;
+}
+.brief ul li{
+    width:100%;
+    height:24px;
+    margin-bottom:18px;
+    background:inherit;
+    opacity:1;
+}
+.brief ul li span{
+    font-size:18px;
+    color:darkgreen;
+    line-height:24px;
+}
+/*�Ҳ�ͼƬ*/
+.right{
+    width:660px;
+    float:right;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:5;
+}
+.right .star{
+    width:660px;
+    height:697px;
+    position:relative;
+}
+.right .star img{
+    margin-left:15px;
+    width:95%;
+    height:95%;
+    display: block;
+    color: inherit;
+    overflow: hidden;
+    border-radius: 100%;
+    border:1px solid #e2e2e2;
+}
+
+
+/*�ײ���Ϣ*/
+.footballer_statistics{
+    padding-top:50px;
+}
+.statistics_content{
+    width:900px;
+    height:180px;
+}
+.statistics_title{
+    width:145px;
+    height:35px;line-height:35px;
+    text-align:center;
+    margin:0 auto;
+    background:url("../img/背景4.png") no-repeat center top;
+    font-size:19px;
+    font-family:'Microsoft YaHei';
+    color:#f8f8f8;
+    font-weight:bold;
+    padding-bottom:30px;
+}
+.statistics_content ul {
+    margin:0;
+    padding:0;
+}
+.statistics_content ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top:60px;
+    float: left;
+    width: 180px;
+    text-align: center;
+    background: inherit;
+    opacity: 1;
+}
+.statistics_content ul li .sta_top{
+    color:darkgreen;
+    font-size:19px;
+    font-family:'Microsoft YaHei';
+    font-weight:bold;
+    margin-bottom:26px;
+}
+.statistics_content ul li .sta_bot{
+    margin-bottom:50px;
+}
+.statistics_content ul li .sta_bot img{
+    display:inline-block;
+    vertical-align:top;
+    margin-right:10px;
+}
+.statistics_content ul li .sta_bot span{
+    height:30px;
+    line-height:30px;
+    display:inline-block;
+    vertical-align:top;
+    font-size:19px;
+    font-family:'Microsoft YaHei';
+    color:darkgreen;
+}
